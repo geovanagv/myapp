@@ -8,7 +8,7 @@ export default function Profile({imgUri, genero, nome, email, telefone}) {
         genero: " Feminino",
         nome: " Geovana Gonçalves Veloso",    
         email: " geovana.gonncalves@icloud.com",
-        telefone: " (61) 98162-5365"
+        telefone: " (61) 98162-5365)"
     }
 
     return (
@@ -22,7 +22,7 @@ export default function Profile({imgUri, genero, nome, email, telefone}) {
             
             <Image
                 style={styles.imagem}
-                source={require("../myapp/assets/eu.jpg")}>
+                source={require("../assets/eu.jpg")}>
             </Image>
 
             <View style={styles.labelContainer}>
@@ -53,10 +53,10 @@ const styles = StyleSheet.create({
 
     container: {
         flex: 1,
-        backgroundColor: "pink",
+        backgroundColor: "#15568D",
         justifyContent: "flex-start",
         alignItems: "center",
-        margin: 5,
+        margin: 15,
         marginTop: "10%"
     },
 
@@ -77,7 +77,7 @@ const styles = StyleSheet.create({
     },
 
     textoLabel: {
-        fontSize: 25,
+        fontSize: 30,
         fontWeight: "bold"
 
     },
@@ -85,12 +85,12 @@ const styles = StyleSheet.create({
     imagem: {
         justifyContent: 'center',
         width: 300,
-        height: 400,
-        borderWidth: 4,
-        borderColor: 'white',
-        borderRadius: 600,
+        height: 300,
+        borderWidth: 2,
+        borderColor: 'purple',
+        borderRadius: 500,
         padding: 20,
-        marginTop: 60,
-        marginLeft: 10
+        marginTop: 20,
+        marginLeft: 20
     }
 })
