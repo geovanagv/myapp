@@ -61,7 +61,7 @@ export default function AppCronometro() {
       <StatusBar style="auto" />
 
       <Image 
-      source={require('./assets/cronoflor1.png')}
+      source={require('./assets/modelocronometro.png')}
       style={styles.imagem}
       />
 
@@ -95,26 +95,26 @@ const styles = StyleSheet.create({
     justifyContent: 'center',
   },
   texto:{
-    fontSize:40,
+    fontSize: 60,
     color:'#FFF',
-    marginTop:-165,
+    marginTop:-270,
     fontWeight:'bold',
 
   },
   botaoArea:{
     flexDirection:'row',
-    marginTop: 150,
-    margin: 18,
+    marginTop: 180,
+    margin: 20,
     
     
   }, 
   botao:{
     backgroundColor:"#FFF",
-    margin:10,
-    borderRadius:9,
-    padding:15,
+    margin:30,
+    borderRadius:80,
+    padding:30,
     fontWeight:'bold',
-    fontSize:50,
+    fontSize:60,
   },
   textoBotao:{
     fontSize:20,
@@ -124,11 +124,10 @@ const styles = StyleSheet.create({
     marginTop:10
   },
   tempoMedido:{
-    fontSize:30,
+    fontSize:40,
     fontStyle:'italic',
     color:"#FFF",
     fontWeight:"bold",
   }
-
   
 });
